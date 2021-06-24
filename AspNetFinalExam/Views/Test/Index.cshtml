@@ -1,3 +1,18 @@
-﻿@page
+﻿@model AspNetFinalExam.ViewModels.TestData
+
+
 @{
+    ViewBag.Title = "Test";
+}
+
+
+
+
+@using (Html.BeginForm("Index", "Test", FormMethod.Post))
+{
+<p>請輸入數字：@Html.TextBoxFor(m => m.Name)   <input type="submit" name="name" value="查詢" /></p>
+
+    <p>查詢結果：@Model.Message</p>
+   
+
 }

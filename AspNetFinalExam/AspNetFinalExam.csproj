@@ -7,9 +7,11 @@
   <ItemGroup>
     <None Remove="Views\Exam\" />
     <None Remove="Views\Test\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Exam\" />
     <Folder Include="Views\Test\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>
